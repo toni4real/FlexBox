@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent1{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+.child1{
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+}
+.child2{
+    height: 100%;
+    width: 50%;
+    background-color: brown;
+}
+.parent2{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+.child3{
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+    display: flex;
+    align-items: end;
+}
+.child4{
+    height: 100%;
+    width: 50%;
+    background-color: brown;
+    display: flex;
+    justify-content: end;
+}
+.child5{
+    height: 50%;
+    width: 50%;
+    background-color: aqua;
+}
+.child6{
+    height: 50%;
+    width: 50%;
+    background-color: blueviolet;
+}
+.parent3{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+.child7{
+    height: 100%;
+    width: 50%;
+    background-color: yellow;
+}
+.child8{
+    height: 100%;
+    width: 50%;
+    background-color:brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child9{
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+}
+.child10{
+    height: 60%;
+    width: 30%;
+    background-color: blueviolet;
+}
+.parent4{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+.child11{
+    height: 100%;
+    width: 25%;
+    background-color: yellow;
+}
+.child12{
+    height: 100%;
+    width: 25%;
+    background-color: brown;
+}
+.child13{
+    height: 100%;
+    width: 25%;
+    background-color: aqua;
+}
+.child14{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.child15{
+    height: 50%;
+    width: 100%;
+    background-color: red;
+}
+.child16{
+    height: 50%;
+    width: 100%;
+    background-color: blue;
+}
